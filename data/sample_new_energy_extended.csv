@@ -1,4 +1,4 @@
-company_name,stock_code,industry,year,revenue,net_profit,operating_cashflow,roe,debt_ratio,gross_margin,eps,audit_opinion,raw_source
+﻿company_name,stock_code,industry,year,revenue,net_profit,operating_cashflow,roe,debt_ratio,gross_margin,eps,audit_opinion,raw_source
 比亚迪股份有限公司,002594,新能源产业链（新能源汽车整车）,2023,6023.15,300.41,1697.25,24.4,77.86,20.22,3.44,标准的无保留意见,比亚迪近三年核心财务数据
 比亚迪股份有限公司,002594,新能源产业链（新能源汽车整车）,2024,7771.02,402.54,1334.54,26.05,74.64,19.44,4.61,标准的无保留意见,比亚迪近三年核心财务数据
 比亚迪股份有限公司,002594,新能源产业链（新能源汽车整车）,2025,8039.65,326.19,591.36,15.31,70.74,17.75,3.58,标准的无保留意见,比亚迪近三年核心财务数据
