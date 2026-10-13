@@ -1,0 +1,17 @@
+{
+  "title": "比亚迪股份有限公司2024年年度报告（核心财务数据原文摘页）",
+  "url": "https://static.cninfo.com.cn/finalpage/2025-03-25/1222881496.PDF",
+  "original_pages": [
+    10,
+    11
+  ],
+  "page_offset": 9,
+  "original_sha256": "e9c2d7fdd088e151ccb6c8ad3d95587b2b014b10f2c9731508d23ce07fde4de3",
+  "fixture_sha256": "432f5b01bd21cbaa8a96632b6d23be57a7317af8b8ccd17ef38a75ea3d9752aa",
+  "expected_2024": {
+    "revenue": 7771.02455,
+    "net_profit": 402.54346,
+    "operating_cashflow": 1334.53873
+  },
+  "normalized_money_unit": "亿元"
+}

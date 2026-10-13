@@ -1,0 +1,17 @@
+.venv/
+runtime/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.db
+*.db-*
+*.sqlite*
+*.log
+.env
+.env.*
+secrets.toml
+data/workspaces/
+uploads/
+sessions/
+.coverage
+htmlcov/

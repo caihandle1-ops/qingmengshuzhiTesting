@@ -1,0 +1,53 @@
+技术测试 CLI 使用要点
+
+环境：Python 3.11 或 3.12，在仓库目录执行命令。安装依赖见 README。
+CLI 不包含网站 UI、网页设计、动画、品牌图形或 PDF 报告版式。
+所有命令输出 UTF-8 JSON；不连接远程模型，不要求 API Key，也不发起网络连接。
+内置公开数据快照用于可复现测试，不等于逐份年报原件人工核验；财务结论应继续核对来源。
+
+1. 初始化测试资料库：
+   python cli.py --data-dir ./runtime init
+   会创建 ./runtime/investor_agent.db，载入 50 家企业、2023—2025 年共 150 条年度记录。
+   重复执行只补齐缺失内置数据，不覆盖已有非空值。
+   不自动寻找、迁移或复用原网页服务资料库。
+
+2. 查看企业与简称：
+   python cli.py --data-dir ./runtime companies
+   python cli.py --data-dir ./runtime companies --query 600519
+
+3. 财务问答与指标来源：
+   python cli.py --data-dir ./runtime ask "贵州茅台2024年营业收入是多少？"
+   python cli.py --data-dir ./runtime ask "2024年营业收入是多少？" --company "贵州茅台"
+   python cli.py --data-dir ./runtime sources 600519 --year 2024 --metric revenue
+   sources 返回实际文件、行列、上游链接和数据身份；缺少来源不会补造。
+
+4. 多轮对话：
+   保存 UTF-8 文件 questions.json：
+   ["贵州茅台2024年营业收入是多少？", "那2023年呢？"]
+   python cli.py --data-dir ./runtime chat --input questions.json
+   每个文件构成一次独立会话；文件之间不共享上下文。
+   信息不足时返回 needs_clarification 及选项，应补充明确问题，不会静默选择任意企业。
+
+5. 企业比较与风险规则：
+   python cli.py --data-dir ./runtime compare "美的" "格力" --year 2025
+   python cli.py --data-dir ./runtime compare "美的" "格力" --year 2024 --metrics revenue net_profit
+   python cli.py --data-dir ./runtime risk "五粮液" --year 2024
+   默认 compare 执行四维规则评分；显式 --metrics 仅做所选指标对比，不给综合评分。
+   风险规则显示触发依据和缺失规则，数据不足不等于低风险。
+
+6. 数据库结构：
+   python cli.py --data-dir ./runtime schema
+   返回真实 SQLite 表结构、字段、主外键及索引，便于技术审查。
+
+7. 回归测试：
+   python cli.py benchmark
+   在独立临时目录运行内置业务评测，返回逐项预期、实际结果、通过数量与耗时；无需 init。
+   然后运行 CLI 端到端测试：
+   python -m pytest tests/test_technical_cli.py -q
+   使用 pytest 临时目录，不改变已初始化的 ./runtime。
+
+全局参数 --data-dir 必须写在子命令之前。默认值是当前工作目录的 ./runtime。
+可使用任意独立测试目录；不要指向已有生产资料库。
+退出码 0 表示请求处理完成；业务层 missing_scope、needs_clarification 等状态需检查 JSON。
+退出码 2 表示参数、文件或输入错误；退出码 1 表示评测集有未通过项、依赖或其他执行错误。
+JSON 中缺失数值为 null，不会输出 NaN 或 Infinity。

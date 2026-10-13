@@ -1,0 +1,32 @@
+{
+  "package_version": "2026.10.14-tech1",
+  "date": "2026-10-14",
+  "source_system_version": "4.20261014.27-controls",
+  "python": "3.13",
+  "pytest": {
+    "passed": 82,
+    "failed": 0
+  },
+  "business_benchmark": {
+    "passed": 55,
+    "total": 55
+  },
+  "module_imports": {
+    "passed": 41,
+    "app_loaded": false
+  },
+  "export_audit": {
+    "ui_source_included": false,
+    "brand_assets_included": false,
+    "private_databases_included": false,
+    "credentials_included": false,
+    "known_public_pdf_fixture_count": 1
+  },
+  "online_url": "https://qingmeng-v4-trial.streamlit.app/",
+  "online_check": "HTTP 200; independent deployment, graphical functionality not revalidated in this run.",
+  "limits": [
+    "No cloud deployment performed.",
+    "Tests ran with installed local dependencies; a new clean pip installation was not exercised.",
+    "Public financial snapshot is not a complete manual audit of all original annual reports."
+  ]
+}

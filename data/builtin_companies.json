@@ -1,0 +1,483 @@
+{
+  "schema_version": 1,
+  "companies": [
+    {
+      "name": "比亚迪股份有限公司",
+      "stock_code": "002594",
+      "industry": "新能源产业链（新能源汽车整车）",
+      "file_name": "sample_byd.csv",
+      "aliases": [
+        "比亚迪"
+      ]
+    },
+    {
+      "name": "宁德时代新能源科技股份有限公司",
+      "stock_code": "300750",
+      "industry": "新能源产业链（动力电池）",
+      "file_name": "sample_catl.csv",
+      "aliases": [
+        "宁德时代"
+      ]
+    },
+    {
+      "name": "长安汽车股份有限公司",
+      "stock_code": "000625",
+      "industry": "新能源产业链（整车制造）",
+      "file_name": "sample_changan.csv",
+      "aliases": [
+        "长安汽车"
+      ]
+    },
+    {
+      "name": "上海汽车集团股份有限公司",
+      "stock_code": "600104",
+      "industry": "新能源产业链（整车制造）",
+      "file_name": "sample_saic.csv",
+      "aliases": [
+        "上汽集团"
+      ]
+    },
+    {
+      "name": "江西赣锋锂业集团股份有限公司",
+      "stock_code": "002460",
+      "industry": "新能源产业链（锂资源与材料）",
+      "file_name": "sample_ganfeng.csv",
+      "aliases": [
+        "赣锋锂业"
+      ]
+    },
+    {
+      "name": "天齐锂业股份有限公司",
+      "stock_code": "002466",
+      "industry": "新能源产业链（锂资源与材料）",
+      "file_name": "sample_tianqi.csv",
+      "aliases": [
+        "天齐锂业"
+      ]
+    },
+    {
+      "name": "欣旺达电子股份有限公司",
+      "stock_code": "300207",
+      "industry": "新能源产业链（消费电池与动力电池）",
+      "file_name": "sample_sunwoda.csv",
+      "aliases": [
+        "欣旺达"
+      ]
+    },
+    {
+      "name": "国轩高科股份有限公司",
+      "stock_code": "002074",
+      "industry": "新能源产业链（动力电池）",
+      "file_name": "sample_gotion.csv",
+      "aliases": [
+        "国轩高科"
+      ]
+    },
+    {
+      "name": "惠州亿纬锂能股份有限公司",
+      "stock_code": "300014",
+      "industry": "新能源产业链（锂电池制造）",
+      "file_name": "sample_eve.csv",
+      "aliases": [
+        "亿纬锂能"
+      ]
+    },
+    {
+      "name": "浙江华友钴业股份有限公司",
+      "stock_code": "603799",
+      "industry": "新能源产业链（钴锂材料）",
+      "file_name": "sample_huayou.csv",
+      "aliases": [
+        "华友钴业"
+      ]
+    },
+    {
+      "name": "贵州茅台酒股份有限公司",
+      "stock_code": "600519",
+      "industry": "食品饮料（白酒）",
+      "file_name": "sample_600519.csv",
+      "aliases": [
+        "贵州茅台",
+        "茅台"
+      ]
+    },
+    {
+      "name": "宜宾五粮液股份有限公司",
+      "stock_code": "000858",
+      "industry": "食品饮料（白酒）",
+      "file_name": "sample_000858.csv",
+      "aliases": [
+        "五粮液"
+      ]
+    },
+    {
+      "name": "山西杏花村汾酒厂股份有限公司",
+      "stock_code": "600809",
+      "industry": "食品饮料（白酒）",
+      "file_name": "sample_600809.csv",
+      "aliases": [
+        "山西汾酒",
+        "汾酒"
+      ]
+    },
+    {
+      "name": "内蒙古伊利实业集团股份有限公司",
+      "stock_code": "600887",
+      "industry": "食品饮料（乳制品）",
+      "file_name": "sample_600887.csv",
+      "aliases": [
+        "伊利股份",
+        "伊利"
+      ]
+    },
+    {
+      "name": "佛山市海天调味食品股份有限公司",
+      "stock_code": "603288",
+      "industry": "食品饮料（调味品）",
+      "file_name": "sample_603288.csv",
+      "aliases": [
+        "海天味业"
+      ]
+    },
+    {
+      "name": "青岛啤酒股份有限公司",
+      "stock_code": "600600",
+      "industry": "食品饮料（啤酒）",
+      "file_name": "sample_600600.csv",
+      "aliases": [
+        "青岛啤酒",
+        "青啤"
+      ]
+    },
+    {
+      "name": "安井食品集团股份有限公司",
+      "stock_code": "603345",
+      "industry": "食品饮料（速冻食品）",
+      "file_name": "sample_603345.csv",
+      "aliases": [
+        "安井食品"
+      ]
+    },
+    {
+      "name": "牧原食品集团股份有限公司",
+      "stock_code": "002714",
+      "industry": "农林牧渔（养殖）",
+      "file_name": "sample_002714.csv",
+      "aliases": [
+        "牧原股份",
+        "牧原"
+      ]
+    },
+    {
+      "name": "美的集团股份有限公司",
+      "stock_code": "000333",
+      "industry": "家用电器（综合家电）",
+      "file_name": "sample_000333.csv",
+      "aliases": [
+        "美的集团",
+        "美的"
+      ]
+    },
+    {
+      "name": "珠海格力电器股份有限公司",
+      "stock_code": "000651",
+      "industry": "家用电器（空调）",
+      "file_name": "sample_000651.csv",
+      "aliases": [
+        "格力电器",
+        "格力"
+      ]
+    },
+    {
+      "name": "海尔智家股份有限公司",
+      "stock_code": "600690",
+      "industry": "家用电器（综合家电）",
+      "file_name": "sample_600690.csv",
+      "aliases": [
+        "海尔智家",
+        "海尔"
+      ]
+    },
+    {
+      "name": "浙江苏泊尔股份有限公司",
+      "stock_code": "002032",
+      "industry": "家用电器（厨房电器）",
+      "file_name": "sample_002032.csv",
+      "aliases": [
+        "苏泊尔"
+      ]
+    },
+    {
+      "name": "江苏恒瑞医药股份有限公司",
+      "stock_code": "600276",
+      "industry": "医药生物（创新药）",
+      "file_name": "sample_600276.csv",
+      "aliases": [
+        "恒瑞医药",
+        "恒瑞"
+      ]
+    },
+    {
+      "name": "深圳迈瑞生物医疗电子股份有限公司",
+      "stock_code": "300760",
+      "industry": "医药生物（医疗器械）",
+      "file_name": "sample_300760.csv",
+      "aliases": [
+        "迈瑞医疗",
+        "迈瑞"
+      ]
+    },
+    {
+      "name": "云南白药集团股份有限公司",
+      "stock_code": "000538",
+      "industry": "医药生物（中药）",
+      "file_name": "sample_000538.csv",
+      "aliases": [
+        "云南白药"
+      ]
+    },
+    {
+      "name": "漳州片仔癀药业股份有限公司",
+      "stock_code": "600436",
+      "industry": "医药生物（中药）",
+      "file_name": "sample_600436.csv",
+      "aliases": [
+        "片仔癀"
+      ]
+    },
+    {
+      "name": "爱尔眼科医院集团股份有限公司",
+      "stock_code": "300015",
+      "industry": "医药生物（医疗服务）",
+      "file_name": "sample_300015.csv",
+      "aliases": [
+        "爱尔眼科"
+      ]
+    },
+    {
+      "name": "无锡药明康德新药开发股份有限公司",
+      "stock_code": "603259",
+      "industry": "医药生物（研发服务）",
+      "file_name": "sample_603259.csv",
+      "aliases": [
+        "药明康德"
+      ]
+    },
+    {
+      "name": "中兴通讯股份有限公司",
+      "stock_code": "000063",
+      "industry": "通信（通信设备）",
+      "file_name": "sample_000063.csv",
+      "aliases": [
+        "中兴通讯",
+        "中兴"
+      ]
+    },
+    {
+      "name": "科大讯飞股份有限公司",
+      "stock_code": "002230",
+      "industry": "计算机（人工智能）",
+      "file_name": "sample_002230.csv",
+      "aliases": [
+        "科大讯飞",
+        "讯飞"
+      ]
+    },
+    {
+      "name": "杭州海康威视数字技术股份有限公司",
+      "stock_code": "002415",
+      "industry": "计算机（智能物联）",
+      "file_name": "sample_002415.csv",
+      "aliases": [
+        "海康威视",
+        "海康"
+      ]
+    },
+    {
+      "name": "立讯精密工业股份有限公司",
+      "stock_code": "002475",
+      "industry": "电子（消费电子）",
+      "file_name": "sample_002475.csv",
+      "aliases": [
+        "立讯精密",
+        "立讯"
+      ]
+    },
+    {
+      "name": "京东方科技集团股份有限公司",
+      "stock_code": "000725",
+      "industry": "电子（显示面板）",
+      "file_name": "sample_000725.csv",
+      "aliases": [
+        "京东方A",
+        "京东方"
+      ]
+    },
+    {
+      "name": "富士康工业互联网股份有限公司",
+      "stock_code": "601138",
+      "industry": "电子（工业互联网）",
+      "file_name": "sample_601138.csv",
+      "aliases": [
+        "工业富联"
+      ]
+    },
+    {
+      "name": "三一重工股份有限公司",
+      "stock_code": "600031",
+      "industry": "机械设备（工程机械）",
+      "file_name": "sample_600031.csv",
+      "aliases": [
+        "三一重工"
+      ]
+    },
+    {
+      "name": "徐工集团工程机械股份有限公司",
+      "stock_code": "000425",
+      "industry": "机械设备（工程机械）",
+      "file_name": "sample_000425.csv",
+      "aliases": [
+        "徐工机械",
+        "徐工"
+      ]
+    },
+    {
+      "name": "中联重科股份有限公司",
+      "stock_code": "000157",
+      "industry": "机械设备（工程机械）",
+      "file_name": "sample_000157.csv",
+      "aliases": [
+        "中联重科"
+      ]
+    },
+    {
+      "name": "潍柴动力股份有限公司",
+      "stock_code": "000338",
+      "industry": "汽车（动力系统）",
+      "file_name": "sample_000338.csv",
+      "aliases": [
+        "潍柴动力",
+        "潍柴"
+      ]
+    },
+    {
+      "name": "福耀玻璃工业集团股份有限公司",
+      "stock_code": "600660",
+      "industry": "汽车（汽车玻璃）",
+      "file_name": "sample_600660.csv",
+      "aliases": [
+        "福耀玻璃",
+        "福耀"
+      ]
+    },
+    {
+      "name": "中国中车股份有限公司",
+      "stock_code": "601766",
+      "industry": "轨道交通（装备制造）",
+      "file_name": "sample_601766.csv",
+      "aliases": [
+        "中国中车",
+        "中车"
+      ]
+    },
+    {
+      "name": "中国神华能源股份有限公司",
+      "stock_code": "601088",
+      "industry": "能源（煤炭）",
+      "file_name": "sample_601088.csv",
+      "aliases": [
+        "中国神华",
+        "神华"
+      ]
+    },
+    {
+      "name": "中国石油化工股份有限公司",
+      "stock_code": "600028",
+      "industry": "能源（石油石化）",
+      "file_name": "sample_600028.csv",
+      "aliases": [
+        "中国石化",
+        "中石化"
+      ]
+    },
+    {
+      "name": "中国石油天然气股份有限公司",
+      "stock_code": "601857",
+      "industry": "能源（石油石化）",
+      "file_name": "sample_601857.csv",
+      "aliases": [
+        "中国石油",
+        "中石油"
+      ]
+    },
+    {
+      "name": "中国长江电力股份有限公司",
+      "stock_code": "600900",
+      "industry": "公用事业（水电）",
+      "file_name": "sample_600900.csv",
+      "aliases": [
+        "长江电力"
+      ]
+    },
+    {
+      "name": "隆基绿能科技股份有限公司",
+      "stock_code": "601012",
+      "industry": "新能源（光伏）",
+      "file_name": "sample_601012.csv",
+      "aliases": [
+        "隆基绿能",
+        "隆基股份",
+        "隆基"
+      ]
+    },
+    {
+      "name": "宝山钢铁股份有限公司",
+      "stock_code": "600019",
+      "industry": "钢铁（板材）",
+      "file_name": "sample_600019.csv",
+      "aliases": [
+        "宝钢股份",
+        "宝钢"
+      ]
+    },
+    {
+      "name": "紫金矿业集团股份有限公司",
+      "stock_code": "601899",
+      "industry": "有色金属（矿业）",
+      "file_name": "sample_601899.csv",
+      "aliases": [
+        "紫金矿业",
+        "紫金"
+      ]
+    },
+    {
+      "name": "万华化学集团股份有限公司",
+      "stock_code": "600309",
+      "industry": "基础化工（化工新材料）",
+      "file_name": "sample_600309.csv",
+      "aliases": [
+        "万华化学",
+        "万华"
+      ]
+    },
+    {
+      "name": "顺丰控股股份有限公司",
+      "stock_code": "002352",
+      "industry": "交通运输（快递物流）",
+      "file_name": "sample_002352.csv",
+      "aliases": [
+        "顺丰控股",
+        "顺丰"
+      ]
+    },
+    {
+      "name": "中远海运控股股份有限公司",
+      "stock_code": "601919",
+      "industry": "交通运输（航运）",
+      "file_name": "sample_601919.csv",
+      "aliases": [
+        "中远海控"
+      ]
+    }
+  ]
+}
